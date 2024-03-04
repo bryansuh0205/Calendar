@@ -1,20 +1,12 @@
 /*
+(this project is a work in progress) 
 overall goal: 
     make an interactive calendar where a user can add events to a specific date.
     users are able to select any date and see what events are on it on the side.
     present day is highlighted.
     dates with events are highlighted in a different color.
     if a date is not the current or has no events, it will be white or gray (I choose).
-    when a date that has no events is selected, display "no events :("
-
-day 1: 
-    learning swing and laying out the different parts of the project.
-    researched different projects that have made a calendar, to see different approach.
-    calendar view on the left and event view on right
-    calendare view will have drop down menu on top layer and dates on bottom
-    event view will have event creation on top layer and event details on bottom
-    made a mockup of what it should look like.
-
+    when a date that has no events is selected, display "no events added"
  */
 import java.awt.*;
 import java.time.*;
